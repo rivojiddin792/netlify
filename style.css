@@ -1,0 +1,103 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        font-family: 'Poppins', sans-serif;
+        color: #000000;
+    }
+
+    .wrapper {
+        width: 100%;
+        max-width: 1920px;
+        height: 100vh;
+        background-size: cover;
+        position: relative;
+    }
+
+    .container {
+        background: white;
+        position: absolute;
+        width: 86%;
+        height: 75%;
+        max-width: 1600px;
+        margin: 0 auto;
+        top: 93px;
+        left: 64px;
+        box-shadow: 10px 10px 20px black;
+    }
+
+    .about-me {
+        position: relative;
+        width: 300px;
+        text-align: center;
+    }
+
+    .about-me img {
+        position: absolute;
+        left: 1006px;
+        width: 100%;
+    }
+
+    .about-me .text {
+        position: absolute;
+        transform: translate(1030%, 70%);
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .menu-bar {
+        position: absolute;
+        top: 9px;
+        width: 70px;
+        height: 97%;
+        background: #592065;
+        outline: 8px solid #592065;
+    }
+
+    .list {
+        list-style: none;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .list i {
+        font-size: 37px;
+        color: #fff;
+    }
+
+    .all {
+        position: absolute;
+        width: 800px;
+        top: 96px;
+        left: 128px;
+    }
+
+    .background-image {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 600px;
+        height: auto;
+    }
+
+    .fa-facebook-square:hover {
+        color: #4267b2;
+    }
+
+    .fa-twitter:hover {
+        color: #38a1f3;
+    }
+
+    .fa-instagram:hover {
+        color: #f54f39;
+    }
